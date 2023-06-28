@@ -1,0 +1,22 @@
+
+ .maincontent{
+  width: 60%;
+  height: 100px;
+  background-color: #ffffff;
+  margin: auto auto; 
+  border-radius: 10px;
+ }
+
+ .slides{
+  margin-top: 100px;
+  width: 200px;
+  height: 100px;
+ }
+
+ .sliderparts{
+
+  width :1300;
+   height:200;
+   background-color:#0c3499;
+   margin-top: 100px;
+ }

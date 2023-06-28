@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.layer{
+  background-color: black;
+  width: 200px;
+  justify-content: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  padding: 50px;
+  margin-top: 10%;
+  height: 200px;
+  border-radius: 5%;
+
+}
+
+button{
+
+  background-color: rgb(189, 142, 233);
+  font: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  color: #000;
+  font-weight: bolder;
+  padding: 6px;
+  border-radius: 8%;
+  border: none;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .layer {
+    width: 50%;
+    padding: 20px;
+    margin-top: 50%;
+    text-align: center;
+  }
+
+  .textlayer {
+    font-weight: 900;
+    font-size: 28px; /* or any desired smaller font size */
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+
+.displaylayer{
+  background-color: aliceblue;
+  border-radius: 4%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+
+.textlayer{
+  border-radius: 4%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  text-align: center;
+display: flex;
+
+justify-content: center;
+text-align: center;
+   color: white;
+
+
+}
+
+.textlayer:hover{
+  color: rgb(0, 251, 255);
+  transition: color 2s ;
+  
+
+  
+}
